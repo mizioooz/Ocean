@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 100;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:22px 60px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+.logo a{
+    margin: 0;
+    font-size: 40px;
+    color:white;
+    text-decoration: none;
+    border:none;
+}
+.logo a:hover{
+    color:#007bff;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.links{
+    list-style: none;
+    display: flex;
+    margin-right: 25px;
+}
+.links li{
+    margin:0;
+    padding:0px 15px;
+}
+.links li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:#fff;
+    transition: 0.4s ease;
+}
+.links li a:hover{
+    color:#007bff;
+}
+.links li .active{
+    color:#007bff;
+}
+.login-btn a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 17px;
+    padding:10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+.login-btn a:hover{
+    background-color: #0056b3;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/beautiful-shot-snowy-mountain-sunset.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:#fff;
+}
+.content h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.content .btn{
+    font-size: 19px;
+    padding:10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+.content .btn:hover{
+    background-color: #0056b3;
+}
+.footer{
+    position:absolute;
+    top:150;
+    left:0;
+    width:100%;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 60px;
+    background-color:black;
+    color:#fff;
+}
+.mainfoot{
+    color:#0056b3;
+    text-align: center;
+}
+.mainfoot4{
+    color:white;
+    text-align: center;
+}
+.footer-links{
+    text-decoration: none;
+    font-weight: 600;
+    color:#9c9c9c;
+}
+.footer-links:hover{
+    color: #fff;
+}
+
+
